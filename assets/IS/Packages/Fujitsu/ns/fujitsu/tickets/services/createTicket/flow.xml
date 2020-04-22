@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -105,7 +106,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fujitsu.encrypt.docs:Ticket</value>
+        <value name="rec_ref">fujitsu.tickets.docs:Ticket</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -115,7 +116,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Ticket;4;0;fujitsu.encrypt.docs:Ticket/create;2;0/title;1;0" TO="/message;1;0">
+<MAPCOPY FROM="/Ticket;4;0;fujitsu.tickets.docs:Ticket/create;2;0/title;1;0" TO="/message;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -162,7 +163,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fujitsu.encrypt.docs:Ticket</value>
+        <value name="rec_ref">fujitsu.tickets.docs:Ticket</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -265,7 +266,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fujitsu.encrypt.docs:Ticket</value>
+        <value name="rec_ref">fujitsu.tickets.docs:Ticket</value>
       </record>
     </array>
     <value name="modifiable">true</value>
@@ -303,7 +304,7 @@
 </DATA>
 </MAPSET>
 
-<MAPDELETE FIELD="/Ticket;4;0;fujitsu.encrypt.docs:Ticket">
+<MAPDELETE FIELD="/Ticket;4;0;fujitsu.tickets.docs:Ticket">
 </MAPDELETE>
 </MAP>
 </FLOW>
