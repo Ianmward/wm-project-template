@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.sag.gcs.wmtestsuite.runtime.WmTestSuiteContainer/0/0/0/0/0"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

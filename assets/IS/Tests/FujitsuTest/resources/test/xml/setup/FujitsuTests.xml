@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="FujitsuTests">
+    <webMethodsTestCase name="createTicket_1">
+        <service folder="fujitsu.tickets.services" name="createTicket">
+            <input>
+                <file filename="resources/test/xml/data/createTicket_IN.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/createTicket_OUT.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
