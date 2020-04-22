@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="Ticket" javaclass="com.wm.data.ISMemDataImpl">
+      <record name="create" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="TicketType">Incident</value>
+        <value name="ActivityType">CREATE</value>
+        <value name="customer_ticket_number">INC06700690</value>
+        <value name="impact">3</value>
+        <value name="primary_contact_email">ian.ward@softwareag.com</value>
+        <value name="primary_contact_business_phone">0406384365</value>
+        <value name="primary_contact_last_name">Ward</value>
+        <value name="primary_contact_first_name">Ian</value>
+        <value name="status">Assigned</value>
+        <value name="title">Fujitsu Test</value>
+        <value name="description">Testing</value>
+        <value name="companyid">SAG</value>
+      </record>
+    </record>
+  </record>
+</IDataXMLCoder>
